@@ -10,7 +10,7 @@ int main(){
     head=(struct Node*)malloc(sizeof(struct Node));
     head->data=45;
     head->ptr=NULL;
-
-return 0;
+    printf("Data in the node:%d\n", head->data);
+ return 0;
 }
 
