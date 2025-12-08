@@ -1,2 +1,3 @@
-f=open("makenewnode.c",'r')
+f=open("makenewnode.c",'w')
 print(f.read())
+f.close()
